@@ -1,6 +1,10 @@
 ## PFC2-deteccion-de-profundidad-CNN
 en este repositorio se propondra para usar una una tecnica para deteccion de profundidad usando imagenes stereo
 para eso se evaluara 2 tecnicas , la tecnica base y la propuesta que en mi caso sera ralft stereo 
+## Arquitectura de Raft stereo:
+![RAFTStereo](https://github.com/6162636465/PFC2-deteccion-de-profundidad-CNN/assets/40539959/1a0ce4b9-643c-467d-975b-6ab72310905c)
+## Arquitectura de Base stereo:
+![OpenStereo](https://github.com/6162636465/PFC2-deteccion-de-profundidad-CNN/assets/40539959/a8384ddc-3824-4915-b41e-f528fd683795)
 ## Dataset:
 La dataset usada para evaluar y entrenar ambos modelos pertenece a [KITTI](https://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo) 
 los datos usados fueron los de tereo 2015 de 2(GB)
