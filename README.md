@@ -11,9 +11,13 @@ los datos usados fueron los de tereo 2015 de 2(GB)
 ## implementación:
 ![Screenshot_4](https://github.com/6162636465/PFC2-deteccion-de-profundidad-CNN/assets/40539959/2e9ff8aa-a6b1-4048-800a-43f3cd905cde)
 se uso una gpu:rtx2060 con 200 epocas de entrenamientos para ambos modelos se uso la carpeta Train del data set para entrenar con las perspectivas de image_0 e image_1 para tomar la perspectiva de ambas camaras y se validara con la carpeta testing.
-#como parametros tomaremos:
+## como parametros tomaremos:
 -tiempo de ejecucion
 -End Point Error
 -Validation Error
 estos parametros fueron sacados de  [unimatch](https://github.com/autonomousvision/unimatch) que compara diversos modelos de deteccion de profundidad con imagenes
 ![Screenshot_3](https://github.com/6162636465/PFC2-deteccion-de-profundidad-CNN/assets/40539959/0b14fb6f-26b0-46d6-a937-dac67794ffa9)
+## grafica de parametros:
+![Figure_1](https://github.com/6162636465/PFC2-deteccion-de-profundidad-CNN/assets/40539959/47b4f419-fdcc-48eb-944e-948b2124683a)
+![Figure_2](https://github.com/6162636465/PFC2-deteccion-de-profundidad-CNN/assets/40539959/4e64433c-4335-4c8d-8914-c8921f6b46d5)
+esto nos da la conclusion que el modelo raft stereo es mejor que el base
